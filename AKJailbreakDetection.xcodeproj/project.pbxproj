@@ -13,6 +13,7 @@
 		92B1F25F1DDFCE7C00227A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F25D1DDFCE7C00227A15 /* Main.storyboard */; };
 		92B1F2611DDFCE7C00227A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F2601DDFCE7C00227A15 /* Assets.xcassets */; };
 		92B1F2641DDFCE7C00227A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F2621DDFCE7C00227A15 /* LaunchScreen.storyboard */; };
+		92B1F26D1DDFCE8D00227A15 /* AKJailbreakDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F26C1DDFCE8D00227A15 /* AKJailbreakDetection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		92B1F2601DDFCE7C00227A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B1F2631DDFCE7C00227A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B1F2651DDFCE7C00227A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B1F26B1DDFCE8D00227A15 /* AKJailbreakDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKJailbreakDetection.h; sourceTree = "<group>"; };
+		92B1F26C1DDFCE8D00227A15 /* AKJailbreakDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKJailbreakDetection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				92B1F2581DDFCE7C00227A15 /* AppDelegate.m */,
 				92B1F25A1DDFCE7C00227A15 /* ViewController.h */,
 				92B1F25B1DDFCE7C00227A15 /* ViewController.m */,
+				92B1F26B1DDFCE8D00227A15 /* AKJailbreakDetection.h */,
+				92B1F26C1DDFCE8D00227A15 /* AKJailbreakDetection.m */,
 				92B1F25D1DDFCE7C00227A15 /* Main.storyboard */,
 				92B1F2601DDFCE7C00227A15 /* Assets.xcassets */,
 				92B1F2621DDFCE7C00227A15 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B1F25C1DDFCE7C00227A15 /* ViewController.m in Sources */,
+				92B1F26D1DDFCE8D00227A15 /* AKJailbreakDetection.m in Sources */,
 				92B1F2591DDFCE7C00227A15 /* AppDelegate.m in Sources */,
 				92B1F2561DDFCE7C00227A15 /* main.m in Sources */,
 			);
